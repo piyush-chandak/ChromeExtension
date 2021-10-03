@@ -1,0 +1,121 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  cursor: default;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  min-width: 400px
+}
+
+.hidden { 
+  display: none;
+}
+
+.container {
+  margin: auto;
+  padding: 8px 12px;
+}
+
+.btn {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 0 0 rgb(255 255 255 / 6%) inset, 0 2px 3px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 2px 0 0 rgb(255 255 255 / 6%) inset, 0 2px 3px 0 rgb(0 0 0 / 20%);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 8px 16px;
+  text-align: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn:hover, .btn:focus {
+  text-decoration: none;
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+}
+
+.btn.disabled {
+  opacity: 0.65;
+  pointer-events: none;
+}
+
+.btn-sm {
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 4px 16px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1a73e8;
+  border-color: #1a73e8;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #2d53af;
+  border-color: #2d53af;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+p {
+  margin: 2px 0;
+}
+
+hr,
+.hr {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: content-box;
+  height: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: visible;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.user-no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

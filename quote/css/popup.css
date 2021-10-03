@@ -1,0 +1,24 @@
+#quote {
+  padding: 0 10px;
+}
+
+.developer-about {
+  font-size: 14px;
+}
+
+.love {
+  color: #e31b23;
+}
+
+.header {
+  background-image: url('../images/background.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 12px;
+}
+
+.author {
+  font-size: 14px;
+}
